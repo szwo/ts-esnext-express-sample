@@ -1,8 +1,7 @@
 import express from 'express';
-import path from 'path';
+import path, { dirname } from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
-import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import indexRouter from './routes/index.js';
